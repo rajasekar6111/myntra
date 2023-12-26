@@ -367,7 +367,7 @@ function App() {
             <img src='https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/j/u/8/m-105-bewakoof-original-imagvzyqehxtjmgy.jpeg?q=70'
               style={{ cursor: 'pointer', display: 'block' }} width='200px' alt='' />
             <h3>Bewakoof</h3>
-            <span style={{ marginTop: '-5px', color: '#888' }}>Pure Cotton T-shirt</span>
+            <span style={{ marginTop: '1px', color: '#888' }}>Pure Cotton T-shirt</span>
             <div style={{ display: 'flex', alignItems: 'center' }}>
               <h4 style={{ margin: '' }}>RS.349</h4>
               <del style={{ color: '#888', marginLeft: '5px' }}>RS.999</del>
@@ -379,7 +379,7 @@ function App() {
             <img src='https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/25072178/2023/9/20/c097aded-8dfb-497d-87c0-e0ef5ec5c8761695179114326StormbornMenBrownPrintedPoloCollarPocketsT-shirt1.jpg'
               style={{ cursor: 'pointer', display: 'block' }} width='200px' alt='' />
             <h3>Stormborn</h3>
-            <span style={{ marginTop: '-5px', color: '#888', cursor: 'pointer' }}>Pure Cotton Oversized T-shirt</span>
+            <span style={{ marginTop: '1px', color: '#888', cursor: 'pointer' }}>Pure Cotton Oversized T-shirt</span>
             <div style={{ display: 'flex', alignItems: 'center' }}>
               <h4 style={{ margin: '' }}>RS.539</h4>
               <del style={{ color: '#888', marginLeft: '5px' }}>RS.999</del>
@@ -391,7 +391,7 @@ function App() {
             <img src='https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/11443762/2023/10/20/2410dd35-b393-41ed-a299-202feb71b3841697799334963JockeyMenWhiteSuperCombedCottonT-shirt1.jpg'
               style={{ cursor: 'pointer', display: 'block' }} width='200px' alt='' />
             <h3>Jockey</h3>
-            <span style={{ marginTop: '-5px', color: '#888', cursor: 'pointer' }}>Super Combed Cotton T-shirt</span>
+            <span style={{ marginTop: '1px', color: '#888', cursor: 'pointer' }}>Super Combed Cotton T-shirt</span>
             <div style={{ display: 'flex', alignItems: 'center' }}>
               <h4 style={{ margin: '' }}>RS.579</h4>
               <del style={{ color: '#888', marginLeft: '5px' }}>RS.1159</del>
