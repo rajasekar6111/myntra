@@ -10,6 +10,12 @@ const TYPE = {
 };
 function App() {
   const [Bundles, setFilter] = useState(null);
+
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const handlePageClick = (page) => {
+    setCurrentPage(page);
+  };
   return (
     <>
       <div className='header'>
@@ -44,19 +50,25 @@ function App() {
           <div className='flex' style={{ columnGap: '25px', cursor: 'pointer' }}>
             <label class="">
               <h4 onClick={() => handleFilterClick(TYPE.Bundles)}>Bundles</h4>
-              {Bundles === TYPE.Bundles && <div>Bundles</div>}
+              {Bundles === TYPE.Bundles && <div> <input type="checkbox" name="category" value="tshirts" />Bundles</div>}
+              {Bundles === TYPE.Bundles && <div> <input type="checkbox" name="category" value="tshirts" />Style Singles</div>}
               <span class="atsa-downArrow sprites-arrowDownBold myntraweb-sprite"></span>
             </label>
 
             <label class="">
               <h4 onClick={() => handleFilterClick(TYPE.Country)}>Country</h4>
-              {Bundles === TYPE.Country && <div>Country</div>}
+              {Bundles === TYPE.Country && <div> <input type="checkbox" name="category" value="tshirts" />All Countries</div>}
+              {Bundles === TYPE.Country && <div> <input type="checkbox" name="category" value="tshirts" />India</div>}
               <span class="atsa-downArrow sprites-arrowDownBold myntraweb-sprite"></span>
             </label>
 
             <label class="">
               <h4 onClick={() => handleFilterClick(TYPE.Size)}>Size</h4>
-              {Bundles === TYPE.Size && <div>Size</div>}
+              {Bundles === TYPE.Size && <div> <input type="checkbox" name="category" value="L" />L</div>}
+              {Bundles === TYPE.Size && <div> <input type="checkbox" name="category" value="M" />M</div>}
+              {Bundles === TYPE.Size && <div> <input type="checkbox" name="category" value="S" />S</div>}
+              {Bundles === TYPE.Size && <div> <input type="checkbox" name="category" value="XL" />XL</div>}
+              {Bundles === TYPE.Size && <div> <input type="checkbox" name="category" value="XXL" />XXL</div>}
               <span class="atsa-downArrow sprites-arrowDownBold myntraweb-sprite"></span>
             </label>
           </div>
@@ -80,6 +92,7 @@ function App() {
           </div>
         </div>
       </div>
+
     </>
   );
 

@@ -111,7 +111,7 @@ export function ProductsImg({ img, brand, name, price, cprice, discount }) {
         <>
             {list.map((model) =>
                 <div className="flex-column">
-                    <div class="vertical-line"></div>
+                    {/* <div class="vertical-line"></div> */}
 
                     <img src={img} width='200px' alt='' />
                     <h3>{brand}</h3>
